@@ -16,7 +16,9 @@ mv ./$LINUX_DISTRIBUTION ~/.config/xfce4 # replace $LINUX_DISTRIBUTION
                                          # with Arch, Gentoo or openSUSE
 ```
 
-Relogin current user.
+3. Relogin current user.
+
+有些软件可能没有安装，所以用不到的话直接把没有用的图标删除掉就好了～
 
 
 ----

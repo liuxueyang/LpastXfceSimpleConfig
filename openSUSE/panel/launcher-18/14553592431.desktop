@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Quassel IRC (Client only)
+Name[zh_CN]=Quassel IRC (仅仅包含客户端)
+GenericName=IRC Client
+GenericName[zh_CN]=IRC 客户端
+Comment=Distributed IRC client with central core component
+Comment[zh_CN]=带有中央核心组件的分布式 IRC 客户端
+Icon=quassel
+TryExec=quasselclient
+Exec=quasselclient
+Categories=Qt;Network;Chat;IRCClient;
+X-DBUS-ServiceName=org.quassel-irc.quasselclient
+X-XFCE-Source=file:///usr/share/applications/quasselclient.desktop
