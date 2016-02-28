@@ -1,0 +1,5 @@
+TO INSTALL:
+
+Copy the logo you would like into /usr/src/linux/drivers/video/logo/ - replacing the original of the same name.
+
+Rebuild your kernel, reboot and you will have the new boot logo.

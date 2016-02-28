@@ -1,0 +1,17 @@
+show_frame=false
+fg_set=true
+bg_set=true
+timezone=
+width_set=true
+height_set=true
+lines_vertically=false
+rotation=0
+data0=%X :) %x\ 
+font0=Sans Bold 11
+tooltip=%A %d %B %Y/%V
+hib_timing=false
+fg=58978R 54123G 54123B
+bg=22873R 23387G 25443B
+width=238
+height=26
+
