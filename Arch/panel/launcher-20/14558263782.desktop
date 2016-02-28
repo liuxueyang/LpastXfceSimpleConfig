@@ -1,0 +1,32 @@
+[Desktop Entry]
+Name=Screenshot
+Name[zh_CN]=截图
+Comment=Save images of your screen or individual windows
+Comment[zh_CN]=将您的屏幕或单个窗口保存为图像
+Keywords=snapshot;capture;print;screenshot;
+Keywords[zh_CN]=snapshot;capture;print;截图;抓屏;截屏;捕获;打印;
+Exec=gnome-screenshot --interactive
+Terminal=false
+Type=Application
+Icon=applets-screenshooter
+StartupNotify=true
+Categories=GTK;GNOME;Utility;X-GNOME-Utilities;
+NotShowIn=KDE;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnome-utils
+X-GNOME-Bugzilla-Component=screenshot
+Actions=screen-shot;window-shot;
+DBusActivatable=true
+X-XFCE-Source=file:///usr/share/applications/org.gnome.Screenshot.desktop
+
+Path=
+
+[Desktop Action screen-shot]
+Name=Take a Screenshot of the Whole Screen
+Name[zh_CN]=截取整个屏幕
+Exec=gnome-screenshot
+
+[Desktop Action window-shot]
+Name=Take a Screenshot of the Current Window
+Name[zh_CN]=截取当前窗口
+Exec=gnome-screenshot -w

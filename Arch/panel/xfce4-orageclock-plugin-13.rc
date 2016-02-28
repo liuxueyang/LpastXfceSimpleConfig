@@ -1,0 +1,15 @@
+show_frame=false
+fg_set=false
+bg_set=true
+timezone=
+width_set=true
+height_set=false
+lines_vertically=false
+rotation=0
+data0=%X L %x %a
+font0=幼圆 Bold 12
+tooltip=%A %d %B %Y/%V
+hib_timing=false
+bg=61423R 59624G 47545B
+width=282
+
